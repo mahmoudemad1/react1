@@ -1,0 +1,35 @@
+.team-icon {
+    width: 40px; /* حجم الدائرة */
+    height: 40px;
+    background-color: #2C3E50 ; /* لون الخلفية */
+    border-radius: 50%; /* يجعلها دائرية */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* تأثير ظل */
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .team-icon:hover {
+    background-color: #ffffff; /* تغيير اللون عند المرور */
+   
+    
+  }
+  .team-icon:hover i {
+    color: #2C3E50; /* تغيير لون الأيقونة ليصبح مرئيًا */
+  }
+  .team-icon i {
+    color: #ffffff; /* لون الأيقونة */
+    font-size: 1.2rem;
+  }
+  .bg{
+
+
+    background-color: #2C3E50 !important;
+  }
+  .text-color{
+
+
+    color: white;
+  }
